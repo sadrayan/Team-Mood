@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 import { ThemeProvider, Grid, CssBaseline } from "@material-ui/core";
 import { createMuiTheme, makeStyles } from "@material-ui/core/styles";
@@ -8,7 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import Brightness3Icon from "@material-ui/icons/Brightness3";
 
 import UserTable from "./components/userTable";
-
+    
 const useStyles = makeStyles((theme) => ({
   root: {
     marginBottom: theme.spacing(2),
@@ -19,11 +19,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
 export default function App() {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = React.useState(false);
   const classes = useStyles();
   const icon = !theme ? <Brightness3Icon /> : <Brightness3Icon />;
   const appliedTheme = createMuiTheme(theme ? light : dark);
+
   return (
     <ThemeProvider theme={appliedTheme}>
        
@@ -43,11 +45,6 @@ export default function App() {
               {icon}
             </IconButton>
           </div>
-          <Grid item xs={12} sm={12} md={12}>
-            <div className="square">
-              <img src="img/png/001-happy.png" alt="BigCo Inc. logo" />
-            </div>
-          </Grid>
 
           <Grid item  xs={12} sm={12} md={12}>
             <UserTable></UserTable>
