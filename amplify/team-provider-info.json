@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactteammood-dev-212619-authRole",
+      "UnauthRoleArn": "arn:aws:iam::575711874019:role/amplify-reactteammood-dev-212619-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::575711874019:role/amplify-reactteammood-dev-212619-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-reactteammood-dev-212619-deployment",
+      "UnauthRoleName": "amplify-reactteammood-dev-212619-unauthRole",
+      "StackName": "amplify-reactteammood-dev-212619",
+      "StackId": "arn:aws:cloudformation:us-east-2:575711874019:stack/amplify-reactteammood-dev-212619/3ff8b670-a0ae-11eb-9bd6-0af985f6d94c",
+      "AmplifyAppId": "da6ioplwc8o58"
+    }
+  }
+}
