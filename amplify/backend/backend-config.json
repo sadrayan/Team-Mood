@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "reactteammood01af7e1b": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

@@ -10,6 +10,11 @@
       "StackName": "amplify-reactteammood-dev-212619",
       "StackId": "arn:aws:cloudformation:us-east-2:575711874019:stack/amplify-reactteammood-dev-212619/3ff8b670-a0ae-11eb-9bd6-0af985f6d94c",
       "AmplifyAppId": "da6ioplwc8o58"
+    },
+    "categories": {
+      "auth": {
+        "reactteammood01af7e1b": {}
+      }
     }
   }
 }
